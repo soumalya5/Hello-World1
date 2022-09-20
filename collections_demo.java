@@ -54,6 +54,7 @@ public class collections_demo {
 		Set<String> s1=new LinkedHashSet(a);
 		Map<String,Integer> m= new TreeMap(){{put("a",1); put("b",2); put("c", 3); }};
 		map_demo x=new map_demo(s1, "Soumalya", m);
+		System.out.println("");
 		x.getData();
 	}
 
